@@ -1,3 +1,5 @@
+import Card from "@/components/card";
+
 export default function Home() {
-  return <div>iTulip</div>;
+  return <div><Card/></div>;
 }
