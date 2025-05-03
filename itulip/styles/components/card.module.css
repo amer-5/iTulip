@@ -1,0 +1,74 @@
+.parent {
+  position: relative;
+  border-radius: 20px;
+  padding: 3.75rem 2rem;
+  z-index: 0;
+  backdrop-filter: blur(30px);
+}
+
+.parent::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 1px;
+  background: linear-gradient(
+    196.11deg,
+    rgba(199, 143, 255, 0.8) 23.93%,
+    rgba(8, 78, 134, 0.8) 113.8%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  z-index: -1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text {
+  font-weight: 400;
+  size: 16px;
+  color: white;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.list li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.list li::before {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-right: 12px;
+  background-image: url("../../public/icons/check.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
