@@ -1,0 +1,6 @@
+.parent {
+  background-image: url(../../public/images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
