@@ -4,6 +4,7 @@
   padding: 3.75rem 2rem;
   z-index: 0;
   backdrop-filter: blur(30px);
+  width: 515px;
 }
 
 .parent::before {
@@ -59,6 +60,7 @@
   color: white;
   font-size: 16px;
   font-weight: 400;
+  color: #b7b7b7;
 }
 
 .list li::before {
