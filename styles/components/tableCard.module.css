@@ -1,0 +1,65 @@
+.container {
+    position: relative; /* Required for pseudo-element positioning */
+    width: 30%;;
+    aspect-ratio: 3/2;
+    border-radius: 8px; /* Optional: for rounded corners */
+     /* Background color for the inner content */
+    z-index: 1; /* Ensure content is above the pseudo-element */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px; /* Match the container's border radius */
+    padding: 1px; /* Match the border width */
+    background: linear-gradient(to right, #084E86CC, #C78FFFCC); /* Gradient border */
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    z-index: -1; /* Place behind the container content */
+}
+
+.wrapper{
+    width: 90%;
+   padding-top: 3rem;
+   gap: 1rem;
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+    
+}
+.title {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.title h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.description{
+    width: 90%;
+}
+.description p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+

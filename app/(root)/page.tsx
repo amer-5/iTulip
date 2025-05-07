@@ -1,12 +1,16 @@
 import Card from "@/components/card";
-
+import Table from "@/sections/table";
 import Icon from "@/public/icons/falling-star.svg";
-
+import Rows from "@/sections/rows";
 import Style from "@/styles/pages/page.module.css";
+
+
 
 export default function Home() {
   return (
     <div className={Style.parent}>
+
+      <Table/>
       <Card.Contact
         heading="CONTINUITEIT"
         icon={Icon}
@@ -18,6 +22,7 @@ export default function Home() {
           "Flexibel en schaalbaar",
         ]}
       />
+      <Rows/>
     </div>
   );
 }

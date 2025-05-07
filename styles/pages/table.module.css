@@ -1,0 +1,53 @@
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 90%;
+    padding: 3rem;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    padding: 2em;
+}
+
+.title h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -4%;
+    margin: 1rem;
+}
+
+.title p {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.title h6 {
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.table {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
