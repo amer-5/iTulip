@@ -3,6 +3,7 @@ import Table from "@/sections/table";
 import Icon from "@/public/icons/falling-star.svg";
 import Rows from "@/sections/rows";
 import Style from "@/styles/pages/page.module.css";
+import SmallTable from "@/sections/smallTable";
 
 
 
@@ -23,6 +24,7 @@ export default function Home() {
         ]}
       />
       <Rows/>
+      <SmallTable/>
     </div>
   );
 }
