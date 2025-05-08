@@ -12,7 +12,7 @@ const smallTable = () => {
                 <div className={style.header}>
                     <div className={style.title}>
                         <h1>PROUD PARTNER BIT bv </h1>
-                        <p>sice 1992</p>
+                        <p>since 1992</p>
                     </div>
                   <Button>Team of 30 developers</Button>
                 </div>
