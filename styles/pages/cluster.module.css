@@ -1,0 +1,40 @@
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+.wrapper{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    width: 60%;
+    text-align: center;
+}
+.header h1{
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 0%;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    width: 27%;
+    flex-direction: column;
+    gap: 5rem;
+}
+.text p{
+    font-size: 24px;
+    font-weight: 500;
+}
