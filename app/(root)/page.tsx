@@ -4,7 +4,7 @@ import Icon from "@/public/icons/falling-star.svg";
 import Rows from "@/sections/rows";
 import Style from "@/styles/pages/page.module.css";
 import SmallTable from "@/sections/smallTable";
-
+import ClusterPage from "@/sections/cluster";
 
 
 export default function Home() {
@@ -24,6 +24,7 @@ export default function Home() {
         ]}
       />
       <Rows/>
+      <ClusterPage/>
       <SmallTable/>
     </div>
   );
