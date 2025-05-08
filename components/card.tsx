@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import Button from "@/components/button.tsx";
+import Button from "@/components/button";
 
 import Style from "@/styles/components/card.module.css";
 

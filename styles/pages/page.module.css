@@ -2,5 +2,12 @@
   background-image: url(../../public/images/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 300vh;
+}
+
+.parent::before {
+  content: "";
+  display: block;
+  height: 164px;
+  width: 100vw;
 }
