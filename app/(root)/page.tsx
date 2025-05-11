@@ -5,13 +5,13 @@ import Rows from "@/sections/rows";
 import Style from "@/styles/pages/page.module.css";
 import SmallTable from "@/sections/smallTable";
 import ClusterPage from "@/sections/cluster";
-
-
+import FiveTable from "@/sections/5table"
+import Map from "@/sections/map";
 export default function Home() {
   return (
     <div className={Style.parent}>
-
-      <Table/>
+      <Map />
+      <Table />
       <Card.Contact
         heading="CONTINUITEIT"
         icon={Icon}
@@ -23,9 +23,10 @@ export default function Home() {
           "Flexibel en schaalbaar",
         ]}
       />
-      <Rows/>
-      <ClusterPage/>
-      <SmallTable/>
+      <Rows />
+      <ClusterPage />
+      <FiveTable />
+      <SmallTable />
     </div>
   );
 }
