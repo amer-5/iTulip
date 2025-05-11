@@ -23,7 +23,7 @@ const Navigation = () => {
         <p onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
           Home
         </p>
-        <Button>Contact us</Button>
+        <Button.Primary>Contact us</Button.Primary>
       </div>
     </div>
   );

@@ -3,40 +3,35 @@ import Image from "next/image";
 import Style from "@/styles/components/button.module.css";
 import arrow from "@/public/icons/arrow.svg";
 
-export enum ButtonVariant {
-  ContactUsNow = "ContactUsNow",
-  Primary = "Primary",
-  Secondary = "Secondary",
-}
-
 interface ButtonProps {
   children: string;
   onClick?: () => void;
-  variant?: ButtonVariant;
 }
 
-const Button: React.FC<ButtonProps> & { Variant: typeof ButtonVariant } = ({
+const BaseButton = ({
   children,
   onClick,
-  variant = ButtonVariant.Primary,
-}) => {
-  const className =
-    variant === ButtonVariant.ContactUsNow
-      ? Style.contactUsNow
-      : variant === ButtonVariant.Secondary
-      ? Style.secondary
-      : Style.primary;
+  className,
+  withArrow = false,
+}: ButtonProps & { className: string; withArrow?: boolean }) => (
+  <button className={className} onClick={onClick}>
+    {children}
+    {withArrow && <Image src={arrow} alt="Arrow" width={20} height={20} />}
+  </button>
+);
 
-  return (
-    <button className={className} onClick={onClick}>
-      {children}
-      {variant === ButtonVariant.ContactUsNow && (
-        <Image src={arrow} alt="Arrow" width={20} height={20} />
-      )}
-    </button>
-  );
+const Button = {
+  Primary: (props: ButtonProps) => (
+    <BaseButton {...props} className={Style.primary} />
+  ),
+
+  Secondary: (props: ButtonProps) => (
+    <BaseButton {...props} className={Style.secondary} />
+  ),
+
+  ContactUsNow: (props: ButtonProps) => (
+    <BaseButton {...props} className={Style.contactUsNow} withArrow />
+  ),
 };
-
-Button.Variant = ButtonVariant;
 
 export default Button;
