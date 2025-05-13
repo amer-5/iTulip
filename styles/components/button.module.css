@@ -1,3 +1,9 @@
+.button {
+  flex: none;
+  width: auto;
+  max-width: max-content;
+}
+
 .contactUsNow {
   background-color: #fcfcfc;
   color: #111111;
@@ -17,13 +23,41 @@
 }
 
 .primary {
-  background-color: black;
-  color: white;
-  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 40px;
+
+  font-weight: 500;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .secondary {
-  background-color: grey;
+  background-color: transparent;
   color: white;
-  padding: 10px 20px;
+  padding: 12px 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .contactUsNow {
+    padding: 11px 66px;
+    font-size: 11px;
+  }
+
+  .arrow {
+    height: 13px;
+    width: 13px;
+  }
+
+  .primary {
+    padding: 8px 24px;
+  }
+
+  /* .secondary {
+    padding: 12px 20px;
+  } */
 }

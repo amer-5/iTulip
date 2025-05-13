@@ -14,9 +14,9 @@ const BaseButton = ({
   className,
   withArrow = false,
 }: ButtonProps & { className: string; withArrow?: boolean }) => (
-  <button className={className} onClick={onClick}>
+  <button className={`${className} ${Style.button}`} onClick={onClick}>
     {children}
-    {withArrow && <Image src={arrow} alt="Arrow" width={20} height={20} />}
+    {withArrow && <Image src={arrow} alt="Arrow" width={20} height={20} className={Style.arrow} />}
   </button>
 );
 

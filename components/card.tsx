@@ -32,7 +32,7 @@ const Card: React.FC<CardProps> & {
   return (
     <div className={Style.parent}>
       <div className={Style.header}>
-        <Image src={icon} alt="Icon" width={24} height={24} />
+        <Image src={icon} alt="Icon" width={24} height={24} className={Style.icon} />
         <p className={Style.heading}>{heading}</p>
       </div>
 
@@ -40,8 +40,8 @@ const Card: React.FC<CardProps> & {
 
       {props.type === "contact" && (
         <>
-          <Button.ContactUsNow withArrow={true}>
-            Contact us now
+          <Button.ContactUsNow withArrow>
+            {"Contact us now"}
           </Button.ContactUsNow>
           <ul className={Style.list}>
             {props.features.map((feature, i) => (
