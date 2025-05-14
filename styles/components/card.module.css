@@ -1,7 +1,7 @@
 .parent {
   position: relative;
   border-radius: 20px;
-  padding: 3.75rem 2rem;
+  padding: 3.75rem 3.75rem;
   z-index: 0;
   backdrop-filter: blur(30px);
   width: 515px;

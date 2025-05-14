@@ -26,7 +26,8 @@ const Home = () => {
         </div>
         <div className={Style.mainText}>
           <h1 className={Style.heading}>
-            iTULIP <br/><span>SOFTWARE BEDRIJIVEN UIT ADRIA REGIO</span>
+            iTULIP <br />
+            <span>SOFTWARE BEDRIJIVEN UIT ADRIA REGIO</span>
           </h1>
           <p className={Style.text}>
             iC codering talent. Brengt zoden aan jouw Nearshoring dijk!

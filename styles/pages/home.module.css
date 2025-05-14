@@ -1,5 +1,5 @@
-@import url('https://fonts.cdnfonts.com/css/poppins');
-@import url('https://fonts.cdnfonts.com/css/space-grotesk');
+@import url("https://fonts.cdnfonts.com/css/poppins");
+@import url("https://fonts.cdnfonts.com/css/space-grotesk");
 
 .home {
   margin: 32px 100px;
@@ -27,7 +27,7 @@
 }
 
 .heading {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 80px;
   font-weight: 700;
   color: #ffffff;
@@ -40,7 +40,7 @@
 }
 
 .text {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 20px;
   font-weight: 300;
   color: #ffffff;

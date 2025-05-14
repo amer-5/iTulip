@@ -20,7 +20,10 @@ const Navigation = () => {
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
       />
       <div className={Style.buttons}>
-        <p className={Style.homeButton} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+        <p
+          className={Style.homeButton}
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
           Home
         </p>
         <Button.Primary>Contact us</Button.Primary>

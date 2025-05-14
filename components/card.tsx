@@ -17,7 +17,6 @@ interface TableProps extends BaseProps {
 
 interface ContactProps extends BaseProps {
   type: "contact";
-  buttonText: string;
   features: string[];
 }
 
@@ -32,7 +31,13 @@ const Card: React.FC<CardProps> & {
   return (
     <div className={Style.parent}>
       <div className={Style.header}>
-        <Image src={icon} alt="Icon" width={24} height={24} className={Style.icon} />
+        <Image
+          src={icon}
+          alt="Icon"
+          width={24}
+          height={24}
+          className={Style.icon}
+        />
         <p className={Style.heading}>{heading}</p>
       </div>
 

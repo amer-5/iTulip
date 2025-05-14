@@ -1,0 +1,43 @@
+@import url("https://fonts.cdnfonts.com/css/space-grotesk");
+
+.parent {
+  margin: 0 144px;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -4%;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  margin: 48px 0;
+}
+
+.cards div {
+  width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+  .parent {
+    margin: 0 28px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .cards div {
+    width: 100%;
+  }
+}
