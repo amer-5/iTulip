@@ -8,6 +8,7 @@ import ClusterPage from "@/sections/cluster";
 import FiveTable from "@/sections/5table"
 import Map from "@/sections/map";
 import Footer from"@/sections/footer";
+import PageTxt from "@/sections/tableTxt";
 export default function Home() {
   return (
     <div className={Style.parent}>
@@ -26,6 +27,7 @@ export default function Home() {
       />
       <Rows />
       <ClusterPage />
+      <PageTxt />
       <FiveTable />
       <SmallTable />
       <Footer />

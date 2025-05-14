@@ -30,3 +30,30 @@
     font-weight: 400;
     letter-spacing: 0%;
 }
+
+@media screen and (max-width: 768px) {
+    .wrapper{
+       flex-flow: column-reverse;
+       position: relative;
+    }
+    .image {
+    padding-left: 15rem;
+    overflow: hidden;
+    }
+   
+    .text{
+        width: 60%;
+        position: absolute;
+       top: 0.5rem;
+       left: 1rem;
+        gap: 1rem;
+    }
+    .text h1{
+        font-size: 24px;
+
+    }
+    .text p{
+        font-size: 12px;
+    }
+    
+}

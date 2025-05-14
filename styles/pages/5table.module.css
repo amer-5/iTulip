@@ -12,3 +12,16 @@
     align-items: center;
     gap: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+    .wrapper{
+        flex-wrap: nowrap;
+        overflow: scroll;
+         scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; 
+    }
+     .wrapper::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
+    }
+    
+}
