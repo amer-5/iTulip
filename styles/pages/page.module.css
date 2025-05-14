@@ -2,7 +2,7 @@
   background-image: url(@/public/images/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 300vh;
+  min-height: 500vh;
 }
 
 .parent::before {
