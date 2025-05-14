@@ -48,3 +48,29 @@
   max-width: 30vw;
   margin: 20px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .parent {
+    margin: calc(144px + 35vh) 20px;
+  }
+
+  .partnerImage {
+    height: 60vh;
+    left: -50%;
+    top: -40%;
+    transform: rotate(45deg);
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .year {
+    font-size: 20px;
+  }
+
+  .description {
+    max-width: 80vw;
+    font-size: 16px;
+  }
+}
