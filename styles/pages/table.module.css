@@ -78,7 +78,6 @@
         -ms-overflow-style: none; 
     }
     .table::-webkit-scrollbar {
-        display: none; /* Chrome, Safari, Opera */
+        display: none;
     }
-    
 }
