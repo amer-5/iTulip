@@ -13,7 +13,7 @@
     gap: 2rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 946px) {
     .wrapper{
         flex-wrap: nowrap;
         overflow: scroll;
