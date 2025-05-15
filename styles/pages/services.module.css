@@ -13,14 +13,37 @@
 
 .cards {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   gap: 64px;
   margin: 48px 0;
+  min-height: 520px;
 }
 
 .cards div {
-  width: 40%;
+  width: 50%;
+  flex: 1;
+  display: flex;
+}
+
+@media screen and (max-width: 1440px) {
+  .parent {
+    margin: 0 100px;
+  }
+
+  .cards {
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .parent {
+    margin: 0 72px;
+  }
+
+  .cards {
+    gap: 16px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -35,6 +58,7 @@
   .cards {
     flex-direction: column;
     gap: 24px;
+    min-height: auto;
   }
 
   .cards div {

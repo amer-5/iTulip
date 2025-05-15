@@ -45,9 +45,7 @@ const Card: React.FC<CardProps> & {
 
       {props.type === "contact" && (
         <>
-          <Button.ContactUsNow withArrow>
-            {"Contact us now"}
-          </Button.ContactUsNow>
+          <Button.ContactUsNow>{"Contact us now"}</Button.ContactUsNow>
           <ul className={Style.list}>
             {props.features.map((feature, i) => (
               <li key={i}>{feature}</li>

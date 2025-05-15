@@ -5,6 +5,9 @@
   z-index: 0;
   backdrop-filter: blur(30px);
   width: 515px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .parent::before {
@@ -69,7 +72,7 @@
   width: 28px;
   height: 28px;
   margin-right: 12px;
-  background-image: url("@/public/icons/check.svg");
+  background-image: url("../../public/icons/check.svg");
   background-size: contain;
   background-repeat: no-repeat;
   flex-shrink: 0;
@@ -79,6 +82,8 @@
   .parent {
     padding: 40px 40px;
     width: 80%;
+    min-height: auto;
+    max-height: none;
   }
 
   .header {
@@ -105,5 +110,13 @@
   .list li::before {
     width: 19px;
     height: 19px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .parent {
+    padding: 2.5rem 2.5rem;
+    min-height: 480px;
+    max-height: 520px;
   }
 }

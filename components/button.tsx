@@ -6,6 +6,7 @@ import arrow from "@/public/icons/arrow.svg";
 interface ButtonProps {
   children: string;
   onClick?: () => void;
+  withArrow?: boolean;
 }
 
 const BaseButton = ({
@@ -13,7 +14,7 @@ const BaseButton = ({
   onClick,
   className,
   withArrow = false,
-}: ButtonProps & { className: string; withArrow?: boolean }) => (
+}: ButtonProps & { className: string }) => (
   <button className={`${className} ${Style.button}`} onClick={onClick}>
     {children}
     {withArrow && (
