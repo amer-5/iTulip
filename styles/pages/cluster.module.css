@@ -38,3 +38,31 @@
     font-size: 24px;
     font-weight: 500;
 }
+
+@media  screen and (max-width: 934px) {
+    .wrapper{
+        gap: 2rem;
+    }
+    .header{
+        width: auto;
+        text-align: left;
+    }
+    .header h1{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .main {
+        flex-flow: column-reverse
+    }
+    
+    .text{
+        width: auto;
+        gap: 2rem;
+    }
+    .image{
+        width:120vw
+    }
+    .image img{
+        width: 100%;
+    }
+}

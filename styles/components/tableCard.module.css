@@ -1,10 +1,9 @@
 .container {
-    position: relative; /* Required for pseudo-element positioning */
-    width: 30%;;
+    position: relative; 
+    width: 30%;
     aspect-ratio: 3/2;
-    border-radius: 8px; /* Optional: for rounded corners */
-     /* Background color for the inner content */
-    z-index: 1; /* Ensure content is above the pseudo-element */
+    border-radius: 8px; 
+    z-index: 1; 
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -19,14 +18,14 @@
     left: 0;
     right: 0;
     bottom: 0;
-    border-radius: 20px; /* Match the container's border radius */
-    padding: 1px; /* Match the border width */
+    border-radius: 20px; 
+    padding: 1px; 
     background: linear-gradient(to right, #084E86CC, #C78FFFCC); /* Gradient border */
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: destination-out;
     mask-composite: exclude;
-    z-index: -1; /* Place behind the container content */
+    z-index: -1; 
 }
 
 .wrapper{
@@ -62,4 +61,18 @@
     letter-spacing: 0%;
 }
 
+
+@media screen and (max-width: 934px) {
+    .container{
+        width: 70%;
+       height: 217px;
+        flex: 0 0 auto; 
+    }
+    .title h2{
+        font-size: 14.29px;
+    }
+    .description p{
+        font-size: 11.43px;
+    }
+}
 
