@@ -10,9 +10,9 @@ const tableTxt: React.FC = () => {
                     <p>since 2011</p>
                 </div>
                 <div className={style.buttons}>
-                    <Button>100+ Engineers</Button>
-                    <Button>170 Years of Experience</Button>
-                    <Button>50+ Successful Projects</Button>
+                    <Button.Primary>100+ Engineers</Button.Primary>
+                    <Button.Primary>170 Years of Experience</Button.Primary>
+                    <Button.Primary>50+ Successful Projects</Button.Primary>
                 </div>
                 <div className={style.text}>
                     <div className={style.purple}>

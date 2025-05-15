@@ -1,0 +1,45 @@
+.wrapper {
+  width: 100%;
+  margin: 144px 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.track {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  gap: 64px;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+
+.icon {
+  margin: 0 16px;
+  height: 84px;
+  aspect-ratio: 1 / 1;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .track {
+    gap: 16px;
+  }
+
+  .icon {
+    height: 48px;
+  }
+}

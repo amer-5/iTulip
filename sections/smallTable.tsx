@@ -14,7 +14,7 @@ const smallTable = () => {
                         <h1>PROUD PARTNER BIT bv </h1>
                         <p>since 1992</p>
                     </div>
-                  <Button>Team of 30 developers</Button>
+                  <Button.Primary>Team of 30 developers</Button.Primary>
                 </div>
                 <div className={style.tables}>
                     <Table title='TALENT' description='Core team of 30 developers. Dedication to fulfilment of customers needs and support. Wide local and international experience in complex projects.' icon={Bulb} />

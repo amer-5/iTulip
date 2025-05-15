@@ -1,0 +1,96 @@
+@import url("https://fonts.cdnfonts.com/css/space-grotesk");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.heading {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.image {
+  width: 111%;
+  height: auto;
+  transform: translateY(-25%);
+}
+
+.role {
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+}
+
+.role h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.role h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.role p {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  width: 85%;
+}
+
+.rolesWrapper {
+  display: grid;
+  grid-template-areas:
+    "role0 role1 role2"
+    "role3 . role4";
+  gap: 36px;
+  margin: 46px 144px;
+}
+
+.role:nth-child(1), .role:nth-child(4) {
+  text-align: start;
+}
+
+.role:nth-child(2) {
+  text-align: center;
+  align-items: center;
+}
+
+.role:nth-child(3), .role:nth-child(5) {
+  text-align: end;
+  align-items: end;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 24px;
+    width: 80%;
+  }
+
+  .rolesWrapper {
+    grid-template-areas:
+      "role0 role1"
+      "role2 role3"
+      "role4 role4";
+    margin: 28px;
+  }
+  .role:nth-child(1), .role:nth-child(3), .role:nth-child(5) {
+    text-align: start;
+    align-items: start;
+  }
+  .role:nth-child(2), .role:nth-child(4) {
+    text-align: end;
+    align-items: end;
+  }
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

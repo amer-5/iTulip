@@ -1,7 +1,7 @@
 .parent {
   position: relative;
   border-radius: 20px;
-  padding: 3.75rem 2rem;
+  padding: 3.75rem 3.75rem;
   z-index: 0;
   backdrop-filter: blur(30px);
   width: 515px;
@@ -69,8 +69,41 @@
   width: 28px;
   height: 28px;
   margin-right: 12px;
-  background-image: url("../../public/icons/check.svg");
+  background-image: url("@/public/icons/check.svg");
   background-size: contain;
   background-repeat: no-repeat;
   flex-shrink: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .parent {
+    padding: 40px 40px;
+    width: 80%;
+  }
+
+  .header {
+    gap: 12px;
+  }
+
+  .heading {
+    font-size: 14px;
+  }
+
+  .icon {
+    height: 17px;
+    width: 17px;
+  }
+
+  .text {
+    font-size: 11px;
+  }
+
+  .list li {
+    font-size: 11px;
+  }
+
+  .list li::before {
+    width: 19px;
+    height: 19px;
+  }
 }

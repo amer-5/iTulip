@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import Button from "@/components/button.tsx";
+import Button from "@/components/button";
 
 import Style from "@/styles/components/card.module.css";
 
@@ -17,7 +17,6 @@ interface TableProps extends BaseProps {
 
 interface ContactProps extends BaseProps {
   type: "contact";
-  buttonText: string;
   features: string[];
 }
 
@@ -32,7 +31,13 @@ const Card: React.FC<CardProps> & {
   return (
     <div className={Style.parent}>
       <div className={Style.header}>
-        <Image src={icon} alt="Icon" width={24} height={24} />
+        <Image
+          src={icon}
+          alt="Icon"
+          width={24}
+          height={24}
+          className={Style.icon}
+        />
         <p className={Style.heading}>{heading}</p>
       </div>
 
@@ -40,7 +45,9 @@ const Card: React.FC<CardProps> & {
 
       {props.type === "contact" && (
         <>
-          <Button>Contact us now</Button>
+          <Button.ContactUsNow withArrow>
+            {"Contact us now"}
+          </Button.ContactUsNow>
           <ul className={Style.list}>
             {props.features.map((feature, i) => (
               <li key={i}>{feature}</li>

@@ -18,7 +18,7 @@ const cluster = () => {
                         <p>Eendracht maakt kracht.</p>
                         <p>Meer dan 150 developers in dienst.</p>
                         <p>Decennialange ervaring met Nearshoring.</p>
-                        <Button>Contact us now</Button>
+                        <Button.ContactUsNow>Contact us now</Button.ContactUsNow>
                     </div>
                 </div>
             </div>

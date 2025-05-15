@@ -1,6 +1,18 @@
 .parent {
-  background-image: url(../../public/images/bg.png);
+  background-image: url(@/public/images/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+}
+
+.parent::before {
+  content: "";
+  display: block;
+  height: 164px;
+  width: 100vw;
+}
+
+@media screen and (max-width: 768px) {
+  .parent::before {
+    height: 96px;
+  }
 }

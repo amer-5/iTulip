@@ -1,0 +1,76 @@
+@import url("https://fonts.cdnfonts.com/css/space-grotesk");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.parent {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+  margin: calc(144px + 35vh) 100px;
+}
+
+.partnerImage {
+  height: 110vh;
+  width: auto;
+  position: absolute;
+  left: -25%;
+  object-fit: contain;
+  mix-blend-mode: lighten;
+  transform: rotate(66deg);
+}
+
+.partnerText {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.heading {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 48px;
+  color: #fff;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.year {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-bottom: 40px;
+}
+
+.description {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  text-align: right;
+  max-width: 30vw;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .parent {
+    margin: calc(144px + 35vh) 20px;
+  }
+
+  .partnerImage {
+    height: 60vh;
+    left: -50%;
+    top: -40%;
+    transform: rotate(45deg);
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .year {
+    font-size: 20px;
+  }
+
+  .description {
+    max-width: 80vw;
+    font-size: 16px;
+  }
+}
