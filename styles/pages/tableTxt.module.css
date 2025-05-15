@@ -56,3 +56,44 @@
  font-size: 20px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 934px) {
+    .wrapper{
+        gap: 1rem;
+    }
+    .title h1{
+      font-size: 24px  
+    }
+    .title p{
+        font-size: 20px;
+    }
+    .buttons{
+        width: 100vw;
+       padding-right: 1rem;
+      gap: 2rem;
+      flex-wrap: nowrap;
+        overflow: scroll;
+          scrollbar-width: none; 
+        -ms-overflow-style: none;  
+    }
+    .buttons::-webkit-scrollbar {
+        display: none; 
+    }
+    .text{
+        width: auto;
+    }
+    .purple{
+        display: none;
+    }
+    .main{
+        padding: 0;
+        border: none;
+        width: auto;
+        text-align: left;
+    }
+    .main p{
+        font-size: 16px;
+        line-height: 32px;
+    }
+    
+}

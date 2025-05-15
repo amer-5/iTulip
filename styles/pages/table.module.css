@@ -52,7 +52,7 @@
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 934px) {
    .wrapper{
     padding: 0;
     align-items: flex-start;
@@ -74,7 +74,7 @@
     .table{
         flex-wrap: nowrap;
         overflow: scroll;
-          scrollbar-width: none; /* Firefox */
+          scrollbar-width: none; 
         -ms-overflow-style: none; 
     }
     .table::-webkit-scrollbar {

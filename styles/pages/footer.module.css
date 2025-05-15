@@ -59,3 +59,21 @@
     opacity: 0.4;
     
 }
+
+@media  screen and (max-width: 934px) {
+    .wrapper{
+        align-items: flex-start;
+        gap: 1rem;
+    }
+   .copyright{
+        align-self: flex-start;
+    }
+    .image{
+
+    
+        position: absolute;
+        top: -55px;
+        left: 0px;
+        z-index: 0;
+        mix-blend-mode: lighten;
+    }}

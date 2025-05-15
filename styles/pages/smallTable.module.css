@@ -37,3 +37,16 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
+@media  screen and (max-width: 934px) {
+    .tables{
+        gap: 2rem;
+        overflow: scroll;
+           scrollbar-width: none; 
+        -ms-overflow-style: none; 
+    }
+    .tables::-webkit-scrollbar {
+        display: none;
+    }
+    
+}

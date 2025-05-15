@@ -31,7 +31,7 @@
     letter-spacing: 0%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 934px) {
     .wrapper{
        flex-flow: column-reverse;
        position: relative;
