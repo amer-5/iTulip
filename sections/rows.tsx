@@ -9,9 +9,9 @@ const rows = () => {
           <h2>SAMENWERKING WAARDEN</h2>
         </div>
         <div className={style.rows}>
-          <Row title='SAMEN' description='Samen uit, samen thuis' />
+          <Row title='SAMEN' description='Uit, samen thuis' />
           <Row title='KENNIS' description='en begrip van de Nederlandse markt en cultuur' />
-          <Row title='VERTROUWEN' description='& professionele afspraken' />
+          <Row title='VERTROUWEN' description='en professionele afspraken' />
         </div>
       </div>
     </div>
