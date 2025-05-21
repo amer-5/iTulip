@@ -17,7 +17,7 @@ const table = () => {
         </div>
         <div className={style.table}>
           <Table icon={repeat} title='CONTINUITEIT' description='Van oplossingen staat hoog in het vaandel'/>
-          <Table icon={computer} title='STATE OF AAT TECH' description="O.a, Java, PHP, React, Phyton, .Net, Saas, Sql, APi’s, iOS, Azure." />
+          <Table icon={computer} title='STATE OF ART TECH' description="O.a, Java, PHP, React, Phyton, .Net, Saas, Sql, APi’s, iOS, Azure." />
           <Table icon={hourglass} title='ERVARING' description='Met projecten in Nederland, VK, Zweden, Duistland, Belgie'/>
           <Table icon={pin} title='REMOTE' description='Direct beschikbaar'/>
           <Table icon={money} title='PRIJS-KWALITEIT' description='Verhouding waar men U tegen zegt'/>
