@@ -39,7 +39,7 @@ const Button = {
   ),
 
   ContactUsNow: (props: ButtonProps) => (
-    <BaseButton {...props} className={Style.contactUsNow} withArrow />
+    <BaseButton onClick={() => window.location.href = 'mailto:contact@itulip.com'} {...props} className={Style.contactUsNow} withArrow />
   ),
 };
 
