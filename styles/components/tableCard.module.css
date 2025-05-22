@@ -1,7 +1,7 @@
 .container {
     position: relative; 
     width: calc(30% - 2rem);
-    height: 280px !important;
+    min-height: 200px !important;
     border-radius: 8px; 
     z-index: 1; 
     display: flex;
