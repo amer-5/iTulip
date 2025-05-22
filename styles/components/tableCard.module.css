@@ -1,6 +1,6 @@
 .container {
     position: relative; 
-    width: 30%;
+    width: calc(30% - 2rem);
     height: 280px !important;
     border-radius: 8px; 
     z-index: 1; 
