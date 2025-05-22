@@ -1,7 +1,7 @@
 @import url("https://fonts.cdnfonts.com/css/space-grotesk");
 
 .parent {
-  margin: 0 144px;
+  margin: 0 15rem;
 }
 
 .heading {
@@ -52,13 +52,33 @@
   }
 
   .heading {
+    font-size: 32px;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .cards div {
+    width: 100%;
+    min-height: auto;
+    flex: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .parent {
+    margin: 0 28px;
+  }
+
+  .heading {
     font-size: 24px;
   }
 
   .cards {
     flex-direction: column;
     gap: 24px;
-    min-height: auto;
   }
 
   .cards div {
