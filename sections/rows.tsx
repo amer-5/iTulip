@@ -1,6 +1,8 @@
-import React from 'react'
-import style from "@/styles/pages/rows.module.css"
-import Row from "@/components/row"
+"use client";
+
+import React from "react";
+import style from "@/styles/pages/rows.module.css";
+import Row from "@/components/row";
 const rows = () => {
   return (
     <div className={style.container}>
@@ -9,13 +11,16 @@ const rows = () => {
           <h2>SAMENWERKING WAARDEN</h2>
         </div>
         <div className={style.rows}>
-          <Row title='SAMEN' description='Uit, samen thuis' />
-          <Row title='KENNIS' description='en begrip van de Nederlandse markt en cultuur' />
-          <Row title='VERTROUWEN' description='en professionele afspraken' />
+          <Row title="SAMEN" description="Uit, samen thuis" />
+          <Row
+            title="KENNIS"
+            description="en begrip van de Nederlandse markt en cultuur"
+          />
+          <Row title="VERTROUWEN" description="en professionele afspraken" />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default rows
+export default rows;

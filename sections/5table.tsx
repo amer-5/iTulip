@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import style from "@/styles/pages/5table.module.css"
 import Table from "@/components/tableCard"

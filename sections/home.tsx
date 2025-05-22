@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import Image from "next/image";
 
@@ -10,6 +12,8 @@ import Akkuro from "@/public/icons/akkuro.svg";
 import image from "@/public/images/image.png";
 
 const Home = () => {
+  console.log(Button);
+
   return (
     <div className={Style.home}>
       <div className={Style.left}>

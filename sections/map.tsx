@@ -1,22 +1,26 @@
-import React from 'react'
-import style from "@/styles/pages/map.module.css"
+"use client";
+
+import React from "react";
+import style from "@/styles/pages/map.module.css";
 import Image from "next/image";
-import Picture from "@/public/images/map.svg"
+import Picture from "@/public/images/map.svg";
 const map = () => {
   return (
     <div className={style.container}>
       <div className={style.wrapper}>
         <div className={style.image}>
-          <Image src={Picture} alt='map' />
+          <Image src={Picture} alt="map" />
         </div>
         <div className={style.text}>
           <h1>ONZE VESTIGINGEN</h1>
-          <p>Onze kantoren zijn gespreid door heel EU:
-            Amsterdam, Sarajevo, Stockholm, Copenhagen, Brussel, Zagreb, Ljubljana</p>
+          <p>
+            Onze kantoren zijn gespreid door heel EU: Amsterdam, Sarajevo,
+            Stockholm, Copenhagen, Brussel, Zagreb, Ljubljana
+          </p>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default map
+export default map;

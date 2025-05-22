@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import Style from "@/styles/components/button.module.css";
@@ -39,8 +41,15 @@ const Button = {
   ),
 
   ContactUsNow: (props: ButtonProps) => (
-    <BaseButton onClick={() => window.location.href = 'mailto:contact@itulip.com'} {...props} className={Style.contactUsNow} withArrow />
+    <BaseButton
+      onClick={() => (window.location.href = "mailto:contact@itulip.com")}
+      {...props}
+      className={Style.contactUsNow}
+      withArrow
+    />
   ),
 };
+
+console.log(Button);
 
 export default Button;
