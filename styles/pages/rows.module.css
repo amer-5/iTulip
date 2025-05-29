@@ -23,10 +23,15 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 2rem;
 }
 
+
 @media screen and (max-width: 934px) {
+    .wrapper{
+        width: 90%;
+    }
     .title h2{
         font-size: 24px;
     }

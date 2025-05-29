@@ -1,5 +1,5 @@
 .row{
-    width: 100%;
+    width: 90%;
     aspect-ratio:17/1;
     display: flex;
     justify-content: center;
@@ -24,14 +24,25 @@
     font-weight: 800;
     line-height: 100%;
     letter-spacing: 5%;
+    text-transform: uppercase;
+}
+.description p{
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 934px) {
     .row{
+        width: 100%;
+    }
+  
+    .row{
         aspect-ratio: 8/1;
     }
     .wrapper{
-        padding-left: 10px;
+       padding-left: 5px;
+        gap: 10px;
     }
     .title h2{
         font-size: 24px;
@@ -40,7 +51,7 @@
      font-size: 12px;   
     }
     .title{
-        width:205px
+        width:auto
     }
     
 }

@@ -73,6 +73,7 @@
     }
     .table{
         flex-wrap: nowrap;
+        justify-content: flex-start;
         overflow: scroll;
           scrollbar-width: none; 
         -ms-overflow-style: none; 
