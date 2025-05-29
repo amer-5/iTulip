@@ -10,20 +10,8 @@ const tableTxt: React.FC = () => {
           <p>since 2011</p>
         </div>
         <div className={style.buttons}>
-          <Button.Primary>100+ Engineers</Button.Primary>
-          <Button.Primary>170 Years of Experience</Button.Primary>
-          <Button.Primary>50+ Successful Projects</Button.Primary>
-        </div>
-        <div className={style.text}>
-          <div className={style.purple}>
-            <h1>YOUR VISION, OUR EXPERTISE</h1>
-          </div>
-          <div className={style.main}>
-            <p>
-              A group of talented minds, passionate about one thing, to develop
-              most innovative technological solutions.
-            </p>
-          </div>
+          <Button.Primary>Team of 100+ Engineers</Button.Primary>
+
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 .container {
     position: relative; 
     width: calc(30% - 2rem);
-    min-height: 200px !important;
+    min-height: 220px !important;
     border-radius: 8px; 
     z-index: 1; 
     display: flex;
@@ -9,8 +9,11 @@
     align-items: flex-start;
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
+   
 }
-
+.extraClass{
+    min-height: 280px !important;
+}
 .container::before {
     content: '';
     position: absolute;
@@ -56,7 +59,7 @@
 .description p{
     color: white;
     font-size: 16px;
-    font-weight: 400;
+    font-weight:200;
     line-height: 24px;
     letter-spacing: 0%;
 }

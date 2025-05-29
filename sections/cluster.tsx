@@ -4,7 +4,7 @@ import React from "react";
 import style from "@/styles/pages/cluster.module.css";
 import Image from "next/image";
 import Picture from "@/public/images/image1.svg";
-import Button from "@/components/button";
+
 const cluster = () => {
   return (
     <div className={style.container}>
@@ -20,7 +20,7 @@ const cluster = () => {
             <p>Eendracht maakt kracht.</p>
             <p>Meer dan 150 developers in dienst.</p>
             <p>Decennialange ervaring met Nearshoring.</p>
-            <Button.ContactUsNow>Contact us now</Button.ContactUsNow>
+           
           </div>
         </div>
       </div>

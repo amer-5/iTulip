@@ -13,7 +13,7 @@
 }
 
 .header{
-    width: 60%;
+    width: 80%;
     text-align: center;
 }
 .header h1{
@@ -31,8 +31,9 @@
 .text{
     display: flex;
     width: 27%;
+    justify-content: flex-start;
     flex-direction: column;
-    gap: 5rem;
+    gap: 3rem;
 }
 .text p{
     font-size: 24px;

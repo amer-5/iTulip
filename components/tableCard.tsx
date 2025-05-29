@@ -6,11 +6,12 @@ interface TableCardProps{
     title: string,
     description: string,
     bonus?:string
+    extraClass?: string
 }
 
-const tableCard: React.FC <TableCardProps> = ({icon,title,description, bonus}) => {
+const tableCard: React.FC <TableCardProps> = ({icon,title,description, bonus, extraClass}) => {
   return (
-    <div className={style.container}>
+    <div className={style.container + (extraClass ? ` ${style.extraClass}` : '')}>
         <div className={style.wrapper}>
             <div className={style.title}>
               {icon &&<Image src={icon} alt="Icon" width={24} height={24} />} 

@@ -13,7 +13,12 @@
     gap: 3rem;
 }
 
-.titlle h1{
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.title h1{
     font-size:48px;
     font-weight: 700;
     letter-spacing: -4%;

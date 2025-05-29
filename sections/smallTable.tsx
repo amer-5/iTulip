@@ -17,17 +17,17 @@ const smallTable = () => {
           <Button.Primary>Team of 30 developers</Button.Primary>
         </div>
         <div className={style.tables}>
-          <Table
+          <Table extraClass="extraClass"
             title="TALENT"
             description="Core team of 30 developers. Dedication to fulfilment of customers needs and support. Wide local and international experience in complex projects."
             icon={Bulb}
           />
-          <Table
+          <Table extraClass="extraClass"
             title="TECHSTACK"
             icon={Comp1}
             description="Java, Delphi, Android, iOS, .NET (C#), ASP HTML, CSS, JavaScript, MS SQL SERVER, Angular, Amazon Web Services."
           />
-          <Table
+          <Table extraClass="extraClass"
             title="RESULTS"
             icon={Comp2}
             description="Experience in software development, testing, implementation and maintenance."
