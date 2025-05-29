@@ -11,9 +11,9 @@
 }
 
 .image {
-  width: 111%;
+  width: 70vw;
   height: auto;
-  transform: translateY(-25%);
+  transform: translate(5%, -52.5%);
 }
 
 .role {
