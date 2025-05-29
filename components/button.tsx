@@ -42,7 +42,6 @@ const Button = {
 
   ContactUsNow: (props: ButtonProps) => (
     <BaseButton
-      onClick={() => (window.location.href = "mailto:contact@itulip.com")}
       {...props}
       className={Style.contactUsNow}
       withArrow
