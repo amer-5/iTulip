@@ -6,7 +6,7 @@
   justify-content: end;
   align-items: center;
   position: relative;
-  margin: calc(144px + 35vh) 100px;
+  margin: calc(144px + 35vh) 144px;
 }
 
 .partnerImage {
