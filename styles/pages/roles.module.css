@@ -13,14 +13,14 @@
 .image {
   width: 70vw;
   height: auto;
-  transform: translate(5%, -52.5%);
+  transform: translate(5%, -50%);
 }
 
 .role {
   display: flex;
   flex-direction: column;
-
   gap: 16px;
+  margin: 1rem;
 }
 
 .role h3 {
