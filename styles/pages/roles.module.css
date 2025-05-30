@@ -66,6 +66,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .image {
+    transform: translate(0, -35%);
+  }
+
   .heading {
     font-size: 24px;
     width: 80%;
@@ -78,10 +82,12 @@
       "role4 role4";
     margin: 28px;
   }
+
   .role:nth-child(1), .role:nth-child(3), .role:nth-child(5) {
     text-align: start;
     align-items: start;
   }
+
   .role:nth-child(2), .role:nth-child(4) {
     text-align: end;
     align-items: end;
