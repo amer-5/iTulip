@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from "react";
 import Image from "next/image";
@@ -36,7 +36,11 @@ const Home = () => {
           <p className={Style.text}>
             iC codering talent. Brengt zoden aan jouw Nearshoring dijk!
           </p>
-          <Button.ContactUsNow>Contact Us Now</Button.ContactUsNow>
+          <Button.ContactUsNow
+            onClick={() => (window.location.href = "mailto:itulip@mail.com")}
+          >
+            Contact Us Now
+          </Button.ContactUsNow>
         </div>
       </div>
       <div className={Style.image}>

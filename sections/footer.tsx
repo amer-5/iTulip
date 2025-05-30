@@ -15,10 +15,14 @@ const footer = () => {
             <h1>iTulip</h1>
           </div>
           <h2>Home</h2>
-          <h2>Contact</h2>
+          <h2 onClick={() => (window.location.href = "mailto:itulip@mail.com")}>
+            Contact
+          </h2>
         </div>
         <div className={style.copyright}>
-          <p>© 2025 Copyright: iTulip; All Rights Reserved</p>
+          <p>
+            © {new Date().getFullYear()} Copyright: iTulip; All Rights Reserved
+          </p>
         </div>
       </div>
       <div className={style.image}>
