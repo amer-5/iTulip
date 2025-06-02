@@ -34,7 +34,7 @@ const Home = () => {
             <span>SOFTWARE BEDRIJIVEN UIT ADRIA REGIO</span>
           </h1>
           <p className={Style.text}>
-            iC codering talent. Brengt zoden aan jouw Nearshoring dijk!
+            iĆ codering talent. Brengt zoden aan jouw Nearshoring dijk!
           </p>
           <Button.ContactUsNow
             onClick={() => (window.location.href = "mailto:itulip@mail.com")}
