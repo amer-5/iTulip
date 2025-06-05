@@ -14,9 +14,9 @@ const Contact = () => {
       icon: PeopleIcon,
       heading: "VOLLEDIGE TEAMS",
       features: [
-        "Merciere teams beschikbaar voor langdurige projecten",
-        "Ontwikkelaars met jarenlange ervaring eerst/meerwerk",
-        "Werkt volgens Agile methode",
+        "Meerdere teams beschikbaar voor langdurige projecten",
+        "Developers met jarenlange ervaring senior/medior",
+        "Getraind in Agile way of work",
         "Flexibel en schaalbaar",
       ],
     },

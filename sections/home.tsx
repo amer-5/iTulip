@@ -12,8 +12,6 @@ import Akkuro from "@/public/icons/akkuro.svg";
 import image from "@/public/images/image.png";
 
 const Home = () => {
-  console.log(Button);
-
   return (
     <div className={Style.home}>
       <div className={Style.left}>
@@ -31,7 +29,7 @@ const Home = () => {
         <div className={Style.mainText}>
           <h1 className={Style.heading}>
             iTULIP <br />
-            <span>SOFTWARE BEDRIJIVEN UIT ADRIA REGIO</span>
+            <span>SOFTWARE BEDRIJVEN UIT ADRIA REGIO</span>
           </h1>
           <p className={Style.text}>
             iĆ codering talent. Brengt zoden aan jouw Nearshoring dijk!

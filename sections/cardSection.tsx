@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from "react";
 import Image from "next/image";
@@ -12,8 +12,8 @@ const CardSection = () => {
       <div className={Style.card}>
         <h1>
           WE KUNNEN ONS VOORSTELLEN DAT U NOG WAT TIJD NODIG HEEFT VÓÓR U MET
-          ONS DE ZEE INGAAT?LATEN WE SAMEN KIJKEN NAAR MOGELIJKHEDEN VOOR EEN
-          EERSTE STAP...
+          ONS DE ZEE INGAAT? <br />
+          LATEN WE SAMEN KIJKEN NAAR MOGELIJKHEDEN VOOR EEN EERSTE STAP...
         </h1>
         <Button.ContactUsNow
           onClick={() => (window.location.href = "mailto:itulip@mail.com")}

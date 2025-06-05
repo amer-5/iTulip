@@ -26,7 +26,7 @@ const table = () => {
           <Table
             icon={computer}
             title="STATE OF ART TECH"
-            description="O.a, Java, PHP, React, Phyton, .Net, Saas, Sql, APi’s, iOS, Azure."
+            description="O.a, Java, PHP, React, Phyton, .Net, Saas, Sql, APi’s, iOS, Azure"
           />
           <Table
             icon={hourglass}

@@ -19,8 +19,7 @@ const cluster = () => {
           <div className={style.text}>
             <p>Eendracht maakt kracht.</p>
             <p>Meer dan 150 developers in dienst.</p>
-            <p>Decennialange ervaring met Nearshoring.</p>
-           
+            <p>Decennialang ervaring met Nearshoring.</p>
           </div>
         </div>
       </div>
