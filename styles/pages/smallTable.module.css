@@ -48,5 +48,12 @@
     .tables::-webkit-scrollbar {
         display: none;
     }
+    .title h1{
+        font-size: 24px;
+    }
+    .title p{
+        font-size: 20px;
+    }
+
     
 }

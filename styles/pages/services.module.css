@@ -20,7 +20,7 @@
 }
 
 .cards div {
-  width: 50%;
+  width: calc(30% - 2rem);
   flex: 1;
   display: flex;
 }
@@ -29,9 +29,19 @@
   .parent {
     margin: 0 100px;
   }
+ 
+  
 
   .cards {
     gap: 32px;
+    justify-content: flex-start;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .cards ::-webkit-scrollbar {
+    display: none;
   }
 }
 
@@ -51,18 +61,18 @@
   }
 
   .heading {
-    font-size: 32px;
+    font-size: 24px;
   }
 
   .cards {
-    flex-direction: column;
     gap: 24px;
   }
 
   .cards div {
-    width: 100%;
+    min-width: 100%;
     min-height: auto;
-    flex: 0;
+    flex: 0 0 auto;
+    width: 100%;
   }
 }
 
@@ -76,7 +86,6 @@
   }
 
   .cards {
-    flex-direction: column;
     gap: 24px;
   }
 

@@ -16,7 +16,7 @@ const CardSection = () => {
           LATEN WE SAMEN KIJKEN NAAR MOGELIJKHEDEN VOOR EEN EERSTE STAP...
         </h1>
         <Button.ContactUsNow
-          onClick={() => (window.location.href = "mailto:itulip@mail.com")}
+          onClick={() => (window.location.href = "mailto:ermandoric@gmail.com")}
         >
           Contact us now
         </Button.ContactUsNow>

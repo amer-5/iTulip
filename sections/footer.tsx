@@ -23,6 +23,8 @@ const footer = () => {
           <p>
             © {new Date().getFullYear()} Copyright: iTulip; All Rights Reserved
           </p>
+          <br/>
+          <p>Geregistreerd te KvK Amsterdam </p>
         </div>
       </div>
       <div className={style.image}>

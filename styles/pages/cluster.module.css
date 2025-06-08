@@ -41,9 +41,9 @@
 }
 
 @media  screen and (max-width: 934px) {
-    .wrapper{
-        gap: 2rem;
-    }
+  .wrapper{
+    gap: 2rem;
+  }
     .header{
         width: auto;
         text-align: left;
@@ -58,12 +58,12 @@
     
     .text{
         width: auto;
-        gap: 2rem;
     }
-    .image{
-        width:120vw
-    }
+    
+    
     .image img{
         width: 100%;
+        height: auto;
+        padding-top: 3rem;
     }
 }

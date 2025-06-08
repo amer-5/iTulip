@@ -35,7 +35,7 @@ const Contact = () => {
   return (
     <div className={Style.parent}>
       <h1 className={Style.heading}>
-        ZODEN BRENGEN AAN <br /> DE DIJK
+        ZODEN BRENGEN AAN DE DIJK
       </h1>
       <div className={Style.cards}>
         {cards.map((card, i) => (
