@@ -51,7 +51,7 @@
 
 @media screen and (max-width: 768px) {
   .parent {
-    margin: calc(144px + 35vh) 20px;
+    margin: calc(144px + 15vh) 20px;
   }
 
   .partnerImage {
