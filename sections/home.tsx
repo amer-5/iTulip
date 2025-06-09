@@ -35,7 +35,9 @@ const Home = () => {
             iĆ codering talent. Brengt zoden aan jouw Nearshoring dijk!
           </p>
           <Button.ContactUsNow
-            onClick={() => (window.location.href = "mailto:itulip@mail.com")}
+            onClick={() =>
+              (window.location.href = "mailto:ermandoric@gmail.com")
+            }
           >
             Contact Us Now
           </Button.ContactUsNow>

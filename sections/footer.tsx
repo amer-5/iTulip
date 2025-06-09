@@ -15,7 +15,11 @@ const footer = () => {
             <h1>iTulip</h1>
           </div>
           <h2>Home</h2>
-          <h2 onClick={() => (window.location.href = "mailto:itulip@mail.com")}>
+          <h2
+            onClick={() =>
+              (window.location.href = "mailto:ermandoric@gmail.com")
+            }
+          >
             Contact
           </h2>
         </div>
@@ -23,7 +27,7 @@ const footer = () => {
           <p>
             © {new Date().getFullYear()} Copyright: iTulip; All Rights Reserved
           </p>
-          <br/>
+          <br />
           <p>Geregistreerd te KvK Amsterdam </p>
         </div>
       </div>

@@ -27,7 +27,7 @@ const Navigation = () => {
           Home
         </p>
         <Button.Primary
-          onClick={() => (window.location.href = "mailto:itulip@mail.com")}
+          onClick={() => (window.location.href = "mailto:ermandoric@gmail.com")}
         >
           Contact us
         </Button.Primary>
