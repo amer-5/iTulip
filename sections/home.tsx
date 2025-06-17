@@ -17,19 +17,19 @@ const Home = () => {
       <div className={Style.left}>
         <div className={Style.partners}>
           <p>Lid von HFA</p>
-          <Image src={HFA} alt="HFA" height={24} className={Style.hfa} />
+          <Image src={HFA} alt="HFA" height={48} className={Style.hfa} />
           <p>Trotse partner van Akkuro by Topicus</p>
           <Image
             src={Akkuro}
             alt="Akkuro"
-            height={24}
+            height={48}
             className={Style.akkuro}
           />
         </div>
         <div className={Style.mainText}>
           <h1 className={Style.heading}>
             iTULIP <br />
-            <span>SOFTWARE BEDRIJVEN UIT ADRIA REGIO</span>
+            <span>SOFTWARE BEDRIJVEN UIT DE ADRIA REGIO</span>
           </h1>
           <p className={Style.text}>
             iĆ codering talent. Brengt zoden aan jouw Nearshoring dijk!

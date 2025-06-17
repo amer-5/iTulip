@@ -11,8 +11,8 @@ const CardSection = () => {
     <div>
       <div className={Style.card}>
         <h1>
-          WE KUNNEN ONS VOORSTELLEN DAT U NOG WAT TIJD NODIG HEEFT VÓÓR U MET
-          ONS DE ZEE INGAAT? <br />
+          We kunnen ons voorstellen dat u nog wat tijd nodig heeft voor u met
+          ons in zee gaat! <br />
           LATEN WE SAMEN KIJKEN NAAR MOGELIJKHEDEN VOOR EEN EERSTE STAP...
         </h1>
         <Button.ContactUsNow

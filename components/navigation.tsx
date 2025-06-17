@@ -15,8 +15,8 @@ const Navigation = () => {
         src={Logo}
         alt="Logo"
         className={Style.logo}
-        height={60}
-        width={60}
+        height={84}
+        width={84}
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
       />
       <div className={Style.buttons}>

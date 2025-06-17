@@ -36,8 +36,8 @@ const table = () => {
           <Table icon={pin} title="REMOTE" description="Direct beschikbaar" />
           <Table
             icon={money}
-            title="PRIJS-KWALITEIT"
-            description="Verhouding waar men U tegen zegt"
+            title="PRIJS-KWALITEITVERHOUDING"
+            description="Waar men u tegen zegt"
           />
           <Table
             icon={chair}

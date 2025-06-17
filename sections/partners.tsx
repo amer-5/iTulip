@@ -37,7 +37,7 @@ const Partner: React.FC<PartnerProps> = ({
       />
       <div className={Style.partnerText}>
         <h1 className={Style.heading}>
-          PROUND PARTNER {name.toUpperCase()} bv
+          PROUD PARTNER {name.toUpperCase()} bv
         </h1>
         <p className={Style.year}>since {year}</p>
         <Button.Primary>{buttonText}</Button.Primary>

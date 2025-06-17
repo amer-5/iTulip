@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from "react";
 
@@ -24,7 +24,7 @@ const Contact = () => {
       icon: ManIcon,
       heading: "INDIVIDUELE ONTWIKKELAARS",
       features: [
-        "Top talent ter aanvulling op uw intern team (Full stack, Frontend of Backend)",
+        "Top talent ter aanvulling op uw interne team (Full stack, Frontend of Backend)",
         "Speciaal geselecteerd op belangrijke criteria voor NL markt",
         "Sterk in communicatieve vaardigheden en teamwerk",
         "Vloeiend in Engels (met back-up in Nederlands)",
@@ -34,9 +34,7 @@ const Contact = () => {
 
   return (
     <div className={Style.parent}>
-      <h1 className={Style.heading}>
-        ZODEN BRENGEN AAN DE DIJK
-      </h1>
+      <h1 className={Style.heading}>ZODEN BRENGEN AAN DE DIJK</h1>
       <div className={Style.cards}>
         {cards.map((card, i) => (
           <Card.Contact

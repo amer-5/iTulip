@@ -14,8 +14,8 @@ const map = () => {
         <div className={style.text}>
           <h1>ONZE VESTIGINGEN</h1>
           <p>
-            Onze kantoren zijn gespreid door heel EU: Amsterdam, Sarajevo,
-            Stockholm, Copenhagen, Brussel, Zagreb, Ljubljana
+            Onze kantoren zijn verspreid over de hele EU: Amsterdam, Sarajevo,
+            Stockholm, Copenhagen, Brussel, Zagreb, Ljubljana.
           </p>
         </div>
       </div>
