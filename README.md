@@ -49,18 +49,4 @@ yarn dev
 
 ---
 
-## 🌟 Contributing
-
-Contributions are welcome!  
-- Submit **issues** for bugs or feature requests  
-- Open **pull requests** for improvements or updates  
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.  
-
----
-
 ⭐ Check out [itulip.eu](https://itulip.eu) to see the live site!
